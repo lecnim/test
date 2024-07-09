@@ -4,9 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>a</title>
+  <title>Co robić we Wrocławiu?</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap" rel="stylesheet">
+
 
   <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
 
@@ -25,20 +30,19 @@
 
       <style>
         body {
-            background-color: black;
+            background-color: rgb(255, 235, 120);
             text-align: center;
-            font-size: 2em;   
-            font-family: "Arial", sans-serif;
+            font-size: 3em;   
+            font-family: "Playwrite CZ", sans-serif;
             font-weight: bold;
-            color: white;    
+            color: black;    
           }
         h1 {
             color: navy;
             text-align: center;
         }
-        
         .here {
-          height: 100%;
+            height: 100%;
           width: 100%;
           display: flex;
           position: fixed;
@@ -62,7 +66,12 @@
         var items = Array(
           "Pierwsze zdanie", 
           "Coś innego", 
-          "trzecie zdanie"
+          "trzecie zdanie",
+          "A może napić sie koka koli",
+          "Nie jechac do wrocławia",
+          "Zjeśc obiad teraz tutaj",
+          "Zagrać w piłkę",
+          "Zesrać się"
           );
 
         var item = items[Math.floor(Math.random()*items.length)];
