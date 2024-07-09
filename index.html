@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Co robić we Wrocławiu??</title>
+  <title>Co robić we Wrocławiu?</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
 
@@ -79,6 +79,11 @@
         $(document).ready(function() {
 
           $(".here").text(item);
+
+          $( ".here" ).on( "click", function() {
+              var item = items[Math.floor(Math.random()*items.length)];
+              $(".here").text(item);
+          } );
             
          });
   </script>
